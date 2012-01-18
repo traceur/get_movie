@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"></LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"></LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1">
+    <Button android:id="@+id/buttonso" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="提交信息"/>
+    </LinearLayout> 
+    <LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+    <Button android:id="@+id/buttonseelist" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1" android:text="查看列表"/>
+    <Button android:id="@+id/buttonseestate" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1" android:text="下载状态"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"></LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center">
+    	<TextView android:id="@+id/conf" android:layout_width="wrap_content" android:layout_height="fill_parent"
+    	 android:textSize="20sp" android:text="设置" android:textColor="#0011ff"/>
+    </LinearLayout>
+    
+</LinearLayout>

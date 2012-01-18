@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center">
+        <TextView android:textSize="25sp" android:text="标题" android:id="@+id/texttitle" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <TextView android:textSize="25sp" android:text="大小" android:id="@+id/textsiz" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center">
+    <TextView android:textSize="25sp" android:text="URL" android:id="@+id/texturl" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"></LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center">
+    	<Button android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/buttondown" android:text="下载" android:textSize="25sp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MovieSoActivity!</string>
+    <string name="app_name">MovieSo</string>
+    <string name="shaodeng">搜索数据中\n请稍等</string>
+</resources>
